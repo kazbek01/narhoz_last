@@ -9,10 +9,7 @@ $(document).ready(function(){
         $('.header-bottom').removeClass('nav-show');
         $('.overlay').removeClass('showed');
     });
-    wow = new WOW({
-        animateClass: 'animated',
-        offset: 100
-    });
+
     wow.init();
     $('#mainNav').onePageNav({
         currentClass: 'active',
